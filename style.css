@@ -91,3 +91,31 @@
     transform: scale(1);
     transition-delay: 0.25s;
   }
+
+  div  a{
+    text-decoration: none;
+    color: whitesmoke;
+    border-radius: 25px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px 25px 10px 25px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    background-color: rgb(108, 104, 104);
+    width: 100px;
+    transition: 1s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  div a:hover{
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0);
+    width: 110px;
+  }
+
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+  }
+
